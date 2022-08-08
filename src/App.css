@@ -1,38 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
 .App {
   text-align: center;
+
+}
+.card {
+  width: 90%;
+  padding: 1em 0;
+  margin: auto;
+  text-align: left;
+  border: 1px solid transparent;
+}
+.container {
+  width: 70%;
+  margin: 2em auto;
+}
+img {
+  padding-bottom: 2em;
+}
+h1 {
+  padding-bottom: 1em;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  padding-bottom: 2em;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+button {
+  padding: 1em 2.5em;
+  border: none;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card:nth-child(1) {
+  background: hsl(31, 77%, 52%);
+  margin-top: 2em;
+  border-radius: 10px 10px 0 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card:nth-child(1) button {
+  color: hsl(31, 77%, 52%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card:nth-child(1) button:hover {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.card:nth-child(2) {
+  background: hsl(184, 100%, 22%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card:nth-child(2) button {
+  color: hsl(184, 100%, 22%);
+}
+
+.card:nth-child(2) button:hover {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.card:nth-child(3) {
+  background: hsl(179, 100%, 13%);
+  margin-bottom: 2em;
+  border-radius: 0 0 10px 10px;
+}
+
+.card:nth-child(3) button {
+  color: hsl(179, 100%, 13%);;
+}
+
+.card:nth-child(3) button:hover {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
 }

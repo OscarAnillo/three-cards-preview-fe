@@ -1,5 +1,13 @@
 import CardComponent from './components/card-component';
-import { sedansImg, sedansTitle, sedansParagraph, suvsImg, suvsTitle, suvsParagraph, luxuryImg, luxuryTitle, luxuryParagraph } from './data-cards/data-file';
+import { sedansImg, 
+  sedansTitle, 
+  sedansParagraph, 
+  suvsImg, 
+  suvsTitle, 
+  suvsParagraph, 
+  luxuryImg, 
+  luxuryTitle, 
+  luxuryParagraph } from './data-cards/data-file';
 
 import './App.css';
 
