@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
-export default function CardComponent({ img, title, paragraph }){
+export default function CardComponent({ img, title, paragraph, className }){
     const cardRef = useRef(null);
 
     useEffect(() => {
@@ -10,7 +10,7 @@ export default function CardComponent({ img, title, paragraph }){
             x: -200,
             y: 100,
             duration: 2,
-            transform: 'scale(2)',
+            transform: 'scale(5)',
             ease: 'bounce'
           })
         gsap.to('.card', {

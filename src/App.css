@@ -97,7 +97,25 @@ button {
 @media(min-width: 1000px){
   .card {
     height: 500px;
+    transition: all 500ms ease;
+    transform: scale(1);
   }
+  .card:nth-child(1):hover {
+    height: 700px;
+    border-left: 1px solid #000;
+    box-shadow: 5px 10px 15px #818181;
+  }
+  .card:nth-child(2):hover {
+    height: 650px;
+    border-top: 1px solid #000;
+    box-shadow: 5px 10px 15px #818181;
+  }
+  .card:nth-child(3):hover {
+    height: 700px;
+    border-right: 1px solid #000;
+    box-shadow: 5px 10px 15px #818181;
+  }
+
   .container {
     width: 65%;
     height: 405px;
